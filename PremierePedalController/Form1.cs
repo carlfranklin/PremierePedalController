@@ -17,7 +17,7 @@ namespace PremierePedalController
     public partial class Form1 : Form, IDisposable
     {
         // Set this to the key string of your pedal device
-        private string PedalKey = @"\\?\hid#vid_05f3&pid_00ff#6&8c35670&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}"
+        private string PedalKey = @"\\?\hid#vid_05f3&pid_00ff#6&8c35670&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}";
 
         /// <summary>
         /// Global Keyboard Handler. Thanks, Stephen Toub!
